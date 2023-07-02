@@ -51,5 +51,5 @@ Console.WriteLine($"Ordered {beverage.Cost()} description= {beverage.GetDescript
 //beverage1 = new MochaCondiment(beverage1);
 //beverage1 = new MochaCondiment(new MochaCondiment(beverage1));
 Beverage beverage1 = new WhipCondiment(new SoyCondiment(new MochaCondiment(new MochaCondiment(new Decaf()))));
-Console.WriteLine($"Ordered {beverage1.Cost()} description= {beverage1.GetDescription()}");
+Console.WriteLine($"Ordered {beverage1.Cost()} Description= {beverage1.GetDescription()}");
 #endregion
